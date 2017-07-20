@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @device.model %>
+</p>
+
+<p>
+  <strong>Uuid:</strong>
+  <%= @device.uuid %>
+</p>
+
+<p>
+  <strong>Token:</strong>
+  <%= @device.token %>
+</p>
+
+<p>
+  <strong>Platform:</strong>
+  <%= @device.platform %>
+</p>
+
+<%= link_to 'Edit', edit_device_path(@device) %> |
+<%= link_to 'Back', devices_path %>
